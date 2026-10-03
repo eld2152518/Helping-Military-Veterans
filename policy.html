@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The purpose of Helping Military Veterans and the accessibility features included on the website.">
+  <meta name="keywords" content="website purpose, accessibility, privacy, veteran support">
+  <meta name="author" content="Elden Pope">
+  <title>Helping Military Veterans | Policy and Accessibility</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="index.html">Helping Military Veterans</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="questions.html">Questions and Comments</a>
+      <a href="resources.html">Resources</a>
+      <a class="active" href="policy.html">Policy and Accessibility</a>
+    </nav>
+  </header>
+
+  <main class="content-section narrow-content">
+    <div class="page-heading">
+      <p class="eyebrow">Required policy page</p>
+      <h1>Our Purpose and Accessibility Commitment</h1>
+      <p>This page explains why the website was created and the accessibility features included to help visitors use it.</p>
+    </div>
+
+    <section class="policy-block" aria-labelledby="purpose-title">
+      <h2 id="purpose-title">Site purpose statement</h2>
+      <p>I created this website to help veterans across America with different problems. I hope they can find what they need to make life a little easier. I also wanted veterans who have gone through similar experiences to share what they have learned and help others with the advice they give.</p>
+    </section>
+
+    <section class="policy-block" aria-labelledby="accessibility-title">
+      <h2 id="accessibility-title">Accessibility statement</h2>
+      <p>This website uses readable text, clear headings, high-contrast colors, descriptive alternative text for images, and labeled form controls. The layout is responsive so it can be used on both desktop computers and mobile devices. Navigation and form fields are designed to be usable with a keyboard, and the content is organized with headings and sections to make it easier to understand.</p>
+    </section>
+
+    <section class="policy-block" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Privacy and respectful use</h2>
+      <p>Please communicate respectfully and avoid sharing private information such as phone numbers, addresses, passwords, or medical details in public comments. This website is intended to provide general information and community support, not to replace professional medical, legal, or emergency assistance.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Helping Military Veterans</p>
+    <p><a href="image-credits.md">Image credits</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A place for veterans to find solutions, ask questions, share experiences, and offer advice.">
+  <meta name="keywords" content="veteran questions, veteran support, community discussion">
+  <meta name="author" content="Elden Pope">
+  <title>Helping Military Veterans | Questions and Comments</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="index.html">Helping Military Veterans</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="questions.html">Questions and Comments</a>
+      <a href="resources.html">Resources</a>
+      <a href="policy.html">Policy and Accessibility</a>
+    </nav>
+  </header>
+
+  <main class="content-section narrow-content">
+    <div class="page-heading">
+      <p class="eyebrow">Share, listen, and support</p>
+      <h1>Find Solutions to Problems or Give Solutions to Problems</h1>
+      <p>This page is a place for veterans to ask questions, share experiences, and offer helpful advice to one another.</p>
+    </div>
+
+    <section class="form-panel" aria-labelledby="form-title">
+      <h2 id="form-title">Share a Question or Solution</h2>
+      <form id="question-form">
+        <div class="form-field">
+          <label for="visitor-name">Name</label>
+          <input id="visitor-name" name="visitor-name" type="text" required placeholder="Enter your name">
+        </div>
+        <div class="form-field">
+          <label for="visitor-email">Email</label>
+          <input id="visitor-email" name="visitor-email" type="email" required placeholder="name@example.com">
+        </div>
+        <div class="form-field">
+          <label for="visitor-topic">Topic</label>
+          <select id="visitor-topic" name="visitor-topic" required>
+            <option value="">Choose a topic</option>
+            <option value="transition">Transition to civilian life</option>
+            <option value="resources">Finding resources</option>
+            <option value="community">Community support</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="visitor-message">Question or comment</label>
+          <textarea id="visitor-message" name="visitor-message" rows="6" required placeholder="Describe your question or solution"></textarea>
+        </div>
+        <button class="button" type="submit">Submit</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="content-section accent-section" aria-labelledby="community-title">
+      <div>
+        <h2 id="community-title">Build a respectful community</h2>
+        <p>Share information respectfully, protect your privacy, and remember that different veterans may have different experiences.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Helping Military Veterans</p>
+    <p><a href="image-credits.md">Image credits</a></p>
+  </footer>
+</body>
+</html>
